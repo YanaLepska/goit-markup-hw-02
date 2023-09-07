@@ -137,6 +137,8 @@ a {
 
 .card-text {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .project-card {
