@@ -13,10 +13,18 @@ a {
   text-decoration: none;
 }
 
-h3 {
+.feature-title {
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+  color: #2e2f42;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
   letter-spacing: 0.4px;
   color: #2e2f42;
 }
@@ -48,13 +56,18 @@ h3 {
   letter-spacing: 0.02em;
 }
 
-.item-add {
-  color: #434455;
+.contacts {
   font-style: normal;
-  line-height: 1.5;
 }
 
-.item-add:active,
+.item-add {
+  color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.item-add:hover,
+.item-add:focus,
 .item-nav:hover,
 .item-nav:focus {
   color: #404bbf;
@@ -69,7 +82,7 @@ h3 {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 3.75; /* 107.143% */
+  line-height: 1.07;
   letter-spacing: 1.12px;
 }
 
@@ -79,9 +92,11 @@ h3 {
   line-height: 1.5;
   letter-spacing: 0.64px;
   color: #ffffff;
+  cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background: #404bbf;
 }
 
@@ -95,14 +110,25 @@ h3 {
   background: #f4f4fd;
 }
 
-h2 {
+.team-title {
   color: #2e2f42;
 
   font-size: 36px;
   font-weight: 700;
-  line-height: 2.5;
+  line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
+}
+.portfolio-title {
+  color: #2e2f42;
+
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
 }
 
 .team-card {
