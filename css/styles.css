@@ -36,7 +36,7 @@ a {
   color: #2e2f42;
 }
 
-.studio-2 {
+.studio-end {
   color: #f4f4fd;
 }
 
@@ -146,9 +146,11 @@ a {
   background: #fff;
 }
 
-footer {
+.end {
   background: #2e2f42;
 }
 .footer-text {
   color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
